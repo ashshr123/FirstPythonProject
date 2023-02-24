@@ -17,6 +17,11 @@ if __name__ == '__main__':
     print_hi('AshFirst Code')
 
     input_user = input("enter name")
+    input_print(input_user)
 
-input_print(input_user)
+    Fruits=["Apple","Mango","Banana","Kiwi","Watermelon"]
+
+    print(Fruits[1:-1]) # -1 means index of last element
+
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
